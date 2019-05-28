@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.h5{
+    text-align: center;
+    font-size: 0.8vw;
+}
+
+/* Tables
+================================== */
+.Rtable {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 3em 0;
+    padding: 0;
+    background-color: #f8fafc;
+}
+.Rtable-cell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+    border: solid white;
+    background: white;
+    font-size: 1vw;
+    text-align: center;
+    width: 12.25%;
+}
+
+.create {
+    font-size: 1vw;
+    float: right;
+    color: black;
+    padding: 10px 50px;
+}
+
+.createPost {
+    background-color: white;
+    padding: 5% 10%;
+}
+
+.form-control{
+    width: 50%;
+    padding: 0.375rem 0.75rem;
+}
+
+tbody{
+    width: 100%;
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn{
+    padding: 0.1rem .5rem;
+
+    }
+
+.container {
+    background-color: white;
+    margin: 20px auto;
+}
+
+.container ul{
+    /*width: 100%;*/
+    /*list-style-type: none;*/
+    /*margin: 0;*/
+    /*padding: 10px 15px;*/
+    /*overflow: hidden;*/
+}
+
+.container ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.container li ul{
+    background: #70A0F1;
+    position: absolute;
+    display: none;
+}
+.container ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: "Crimson Text", serif;
+}
+
+.right{
+    float: right;
+}
+
+.a{
+    font-size: 1.5vw;
+}
+
+.far{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 1vw;
+}
+
+.submit {
+    background-color: white;
+    border: none;
+    font-size: 1.5vw;
+    padding: 0;
+}
+
+.link {
+    background-color: white;
+    border: none;
+    font-size: 1vw;
+    padding: 0;
+}
+
+.title {
+    font-size: 1.5vw;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f8f9fa;
+}
+
+.flex-container > div {
+    background-color: #f8f9fa;
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 1.5vw;
+}
+
+.btn-drop{
+    background-color: white;
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 16px;
+    font-size: 1vw;
+    border: none;
+    width: 10%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8f9fa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #000;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #f8f9fa;
+    outline: none;
+    border: none;
+    font-family: "Crimson Text", serif;
+}
+
+.form{
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f8f9fa;}
+
+.flex-containers {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.flex-containers > div {
+    background: #ffffff;
+    width: 800px;
+    margin: 10px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 30px;
+}
+
+.deleteRecord{
+    text-align: center;
+    border: none;
+    background-color: white;
+}

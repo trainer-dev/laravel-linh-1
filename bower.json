@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "description": "no",
+  "main": "project",
+  "authors": [
+    "linhngoc <linhhr223@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "no"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tinymce": "^5.0.6"
+  }
+}
